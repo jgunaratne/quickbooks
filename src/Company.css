@@ -1,0 +1,210 @@
+.company {
+  position: fixed;
+  top: 0;
+  left: 200px;
+  background: rgb(244, 245, 248);
+  width: calc(100% - 280px);
+  height: 100%;
+  padding: 20px 40px;
+}
+
+.company.hide {
+  display: none;
+}
+
+.company h2 {
+  margin: 10px 0;
+}
+
+.company h3 {
+  margin: 0;
+  font-size: 12pt;
+  font-weight: 200;
+}
+
+.company h4 {
+  font-size: 11pt;
+  color: #ccc;
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+  color: rgb(54, 118, 192);
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.card {
+  border: 1px solid rgb(228, 230, 233);
+  border-radius: 3px;
+  width: 100%;
+  height: 80px;
+  margin: 20px 0;
+  background: white;
+  box-shadow: 0 1px #bbb;
+}
+
+.mini-cards {
+  display: flex;
+}
+
+.mini-card {
+  border: 1px solid rgb(228, 230, 233);
+  border-radius: 3px;
+  margin: 10px;
+  padding: 10px;
+  background: white;
+  box-shadow: 0 1px #bbb;
+  text-align: center;
+  width: 33%;
+  position: relative;
+}
+
+.amount {
+  font-size: 24pt;
+  font-weight: 400;
+}
+
+.type {
+  text-transform: uppercase;
+  color: #888;
+  font-size: 10pt;
+  font-weight: 800;
+}
+
+.green {
+  color: rgb(84, 158, 53);
+}
+
+.teal {
+  color: rgb(61, 130, 128);
+}
+
+.circle {
+  position: absolute;
+  top: 22px;
+  width: 40px;
+  height: 40px;
+  text-align: center;
+  vertical-align: middle;
+  border-radius: 20px;
+  background:  rgb(244, 245, 248);
+  z-index: 1;
+  font-size: 28pt;
+  color: #888;
+  font-weight: 800;
+  line-height: 40px;
+}
+
+.circle.left {
+  left: -30px;
+}
+
+.circle.right {
+  right: -30px;
+}
+
+.company-nav {
+  list-style: none;
+  display: flex;
+  margin: 0;
+  padding: 50px 10px;
+}
+
+.company-nav li {
+  padding: 5px 0;
+  margin-right: 50px;
+  font-size: 12pt;
+  color: #555;
+}
+
+.company-nav li.selected {
+  border-bottom: 2px solid rgb(84, 158, 53);
+  color: black;
+}
+
+.overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: none;
+}
+
+.multi-scrim {
+  background: rgba(0, 0, 0, 0.5);
+  position: fixed;
+}
+
+.scrim1 {
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 270px;
+}
+
+.scrim2 {
+  top: 270px;
+  left: 0;
+  width: 230px;
+  height: calc(100% - 270px);
+}
+
+.scrim3 {
+  top: 270px;
+  right: 0;
+  width: 30px;
+  height: calc(100% - 270px);
+}
+
+.scrim4 {
+  top: 270px;
+  left: 340px;
+  width: calc(100% - 340px - 30px);
+  height: 80px;
+}
+
+.scrim5 {
+  bottom: 0;
+  left: 230px;
+  width: calc(100% - 230px - 30px);
+  height: 100px;
+}
+
+.overlay.show {
+  display: block;
+}
+
+.info {
+  position: fixed;
+  top: 200px;
+  left: 360px;
+  width: 400px;
+  border: 1px solid rgb(228, 230, 233);
+  border-radius: 3px;
+  padding: 20px;
+  background: white;
+  box-shadow: 0 1px #bbb;
+  z-index: 100;
+}
+
+.info h2 {
+  margin-top: 0;
+}
+
+.info p {
+  margin-bottom: 0;
+}
+
+.info .close {
+  position: absolute;
+  top: 5px;
+  right: 15px;
+  font-size: 24pt;
+  color: #888;
+  cursor: pointer;
+}

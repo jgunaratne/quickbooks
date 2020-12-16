@@ -1,0 +1,47 @@
+.nav {
+  background: rgb(56, 57, 59);
+  width: 200px;
+  height: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  margin: 0;
+  padding: 0;
+  color: white;
+  list-style: none;
+  line-height: 3em;
+  font-size: 11pt;
+}
+
+.nav li {
+  cursor: pointer;
+  padding: 0 20px;
+}
+
+.nav li:nth-child(n+2):hover {
+  background: black;
+}
+
+.new {
+  border: 2px solid white;
+  background: none;
+  color: white;
+  width: 100%;
+  border-radius: 20px;
+  font-size: 12pt;
+  line-height: 24pt;
+  margin: 40px 0 20px 0;
+  outline : none;
+  cursor: pointer;
+}
+
+.plus {
+  font-size: 24pt;
+  line-height: 24pt;
+  padding: 0 10px 0 0;
+  vertical-align: middle;
+}
+
+.label {
+  vertical-align: middle;
+}

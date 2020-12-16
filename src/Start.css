@@ -1,0 +1,23 @@
+.start {
+  width: calc(100% - 200px);
+  height: 100%;
+  position: fixed;
+  top: 0;
+  left: 200px;
+  padding: 80px 100px;
+}
+
+h1 {
+  font-weight: 800;
+  font-size: 36pt;
+  margin: 0;
+}
+
+h4 {
+  font-weight: 400;
+  font-size: 14pt;
+}
+
+.start-project:hover {
+  background: rgb(61, 124, 33);
+}

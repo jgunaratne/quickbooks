@@ -1,0 +1,19 @@
+button {
+  border: 1px solid #333;
+  background: white;
+  border-radius: 24px;
+  font-size: 12pt;
+  line-height: 24pt;
+  margin: 20px 0;
+  outline : none;
+  cursor: pointer;
+  padding: 2px 20px;
+  font-weight: 800;
+  min-width: 100px;
+}
+
+button.green {
+  background: rgb(85, 158, 54);
+  color: white;
+  border: none;
+}
